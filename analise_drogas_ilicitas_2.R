@@ -45,8 +45,8 @@ library(ggplot2)
 d$Year <- as.factor(d$Year) # Transformar a variável Year em fator
 
 g1 <- ggplot(d, aes(x = Year, y = opioides, group = Code)) +
-  geom_line(size = 0.8, col = "#b2182b") +
-  geom_point(size = 2.5, col = "#b2182b") +
+  geom_line(size = 0.8, col = "#542788") +
+  geom_point(size = 2.5, col = "#542788") +
   labs(x = "Anos",
        y = "Mortes por overdose de Opióides") +
   theme_minimal(base_size = 13) +
@@ -54,8 +54,8 @@ g1 <- ggplot(d, aes(x = Year, y = opioides, group = Code)) +
 g1
 
 g2 <- ggplot(d, aes(x = Year, y = Cocaina, group = Code)) +
-  geom_line(size = 0.8, col = "#b2182b") +
-  geom_point(size = 2.5, col = "#b2182b") +
+  geom_line(size = 0.8, col = "#542788") +
+  geom_point(size = 2.5, col = "#542788") +
   labs(x = "Anos",
        y = "Mortes por overdose de Cocaína") +
   theme_minimal(base_size = 13) +
@@ -63,8 +63,8 @@ g2 <- ggplot(d, aes(x = Year, y = Cocaina, group = Code)) +
 g2
 
 g3 <- ggplot(d, aes(x = Year, y = Anfetamina, group = Code)) +
-  geom_line(size = 0.8, col = "#b2182b") +
-  geom_point(size = 2.5, col = "#b2182b") +
+  geom_line(size = 0.8, col = "#542788") +
+  geom_point(size = 2.5, col = "#542788") +
   labs(x = "Anos",
        y = "Mortes por overdose de Anfetamina") +
   theme_minimal(base_size = 13) +
@@ -72,8 +72,8 @@ g3 <- ggplot(d, aes(x = Year, y = Anfetamina, group = Code)) +
 g3
 
 g4 <- ggplot(d, aes(x = Year, y = Outras_drogas, group = Code)) +
-  geom_line(size = 0.8, col = "#b2182b") +
-  geom_point(size = 2.5, col = "#b2182b") +
+  geom_line(size = 0.8, col = "#542788") +
+  geom_point(size = 2.5, col = "#542788") +
   labs(x = "Anos",
        y = "Mortes por overdose - Outras drogas") +
   theme_minimal(base_size = 13) +
